@@ -1,4 +1,5 @@
 # Reach50DiceGame
+https://nj-reach50dicegame.netlify.app/
 
 Roll the dice 
 If 1 comes in the dice then player2 rolls the dice and player1 lost the current score
