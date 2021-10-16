@@ -184,3 +184,86 @@ main {
   right: 2%;
   bottom: 3%;
 }
+
+@media only screen and (max-width: 420px) {
+  main {
+    width: 38rem;
+    height: 30rem;
+  }
+
+  .player {
+    width: 50%;
+    font-size: 3rem;
+    height: 100%;
+    padding: 30px;
+  }
+
+  .current {
+    height: 20%;
+  }
+
+  .created {
+    top: 10%;
+    left: 40%;
+  }
+
+  .button {
+    font-size: 1.2rem;
+    padding: 5px;
+    width: 12rem;
+  }
+
+  .new_game {
+    left: 35%;
+  }
+
+  .roll {
+    top: 65%;
+    left: 35%;
+  }
+
+  .hold {
+    width: 8rem;
+    top: 80%;
+    left: 40%;
+  }
+
+  .dice {
+    width: 50px;
+    height: 50px;
+    top: 35%;
+    left: 45%;
+  }
+
+  .winner0 {
+    position: absolute;
+    font-size: 15px;
+    top: 44%;
+    left: 15%;
+    animation-duration: 3s;
+    animation-name: sizeup;
+    color: white;
+  }
+
+  .winner1 {
+    position: absolute;
+    font-size: 15px;
+    top: 44%;
+    left: 65%;
+    animation-duration: 3s;
+    animation-name: sizeup;
+    color: white;
+  }
+
+  @keyframes sizeup {
+    from {
+      font-size: 5px;
+      margin-left: 2%;
+    }
+
+    to {
+      font-size: 15px;
+      margin-left: 0%;
+    }
+  }
+}
