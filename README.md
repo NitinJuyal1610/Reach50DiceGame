@@ -1,9 +1,16 @@
 # Reach50DiceGame
-https://nj-reach50dicegame.netlify.app/
+[Play this Game](https://nj-reach50dicegame.netlify.app/)
 
-Roll the dice 
-If 1 comes in the dice then player2 rolls the dice and player1 lost the current score
-</br>
-if player clicks hold button then current score is added to total score
-</br>
-To win - Player has to increase the total score to 50
+##Game Rules:
+-The game has 2 (default) playing in rounds
+-In each turn, a player rolls a dice as many times as he wishes. Each result get added to his CURRENT score
+-BUT, if the player rolls a 1, all his CURRENT score gets lost. After that, it's the next player's turn
+-The player can choose to 'Hold', which means that his CURRENT score gets added to his Score. After that, it's the next player's turn
+-The first player to reach 50 points score wins the game.
+
+#Screenshots
+
+![img](/home/nitinjuyal/Pictures
+/img.png)
+
+
