@@ -10,6 +10,6 @@
 
 # Screenshots
 
-![img](file:///home/nitinjuyal/Documents/VS%20Code/Reach50%20Game/img.png)
+![img](img.png)
 
 
